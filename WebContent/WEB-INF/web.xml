@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+    <servlet-name>selectPatientServlet</servlet-name>
+    <servlet-class>edu.angy.web.SelectPatientServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>selectPatientServlet</servlet-name>
+    <url-pattern>/selectPatientServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>deletePatientServlet</servlet-name>
+    <servlet-class>edu.angy.web.DeletePatientServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deletePatientServlet</servlet-name>
+    <url-pattern>/deletePatientServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>updatePatientServlet</servlet-name>
+    <servlet-class>edu.angy.web.UpdatePatientServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updatePatientServlet</servlet-name>
+    <url-pattern>/updatePatientServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>selectPatientRecordServlet</servlet-name>
+    <servlet-class>edu.angy.web.SelectPatientRecordServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>selectPatientRecordServlet</servlet-name>
+    <url-pattern>/selectPatientRecordServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>addPatientServlet</servlet-name>
+    <servlet-class>edu.angy.web.AddPatientServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addPatientServlet</servlet-name>
+    <url-pattern>/addPatientServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>edu.angy.web.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>edu.angy.web.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/registerServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
